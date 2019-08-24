@@ -22,8 +22,10 @@ export default function FavoritesScreen({ navigation }) {
 
   return (
     <RefreshControlScrollView refresh={refresh}>
-      <Hours refresh={refreshState} bus="C6" stop="Hublais" destination="Aéroport" />
-      <Hours refresh={refreshState} bus="C6" stop="République" destination="Cesson-Sévigné" />
+      <Hours refresh={refreshState} bus="C6" stop="Coeur de Courrouze" destination="Cesson-Sévigné" />
+      <Hours refresh={refreshState} bus="C2" stop="République" destination="Saint-Grégoire" />
+      <Hours refresh={refreshState} bus="C2" stop="Champ Daguet" destination="Haut Sancé" />
+      <Hours refresh={refreshState} bus="C6" stop="République" destination="Aéroport" />
     </RefreshControlScrollView>
   );
 }

@@ -28,6 +28,8 @@
     },
     "assetBundlePatterns": [
       "**/*"
-    ]
+    ],
+    "description": "",
+    "githubUrl": "https://github.com/pierremahot/roazhon-movement"
   }
 }
